@@ -44,6 +44,7 @@ const SITE = {
         { id: 's3-6', text: '3.6  Outsourcing & Alliances' },
         { id: 's3-7', text: '3.7  Strategic Overload' },
         { id: 's3-8', text: '3.8  Value Maps & Complements' },
+        { id: 's3-9', text: '3.9  Case Study: Intel Corporation' },
       ]
     },
     {
