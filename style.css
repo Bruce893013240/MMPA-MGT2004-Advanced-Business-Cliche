@@ -28,7 +28,7 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font);
-  font-size: 16.5px;
+  font-size: 35.5px;
   line-height: 1.75;
   color: var(--text);
   background: var(--bg);
@@ -63,7 +63,7 @@ body {
 .topbar-hamburger:hover { background: var(--border-light); }
 
 .topbar-title {
-  font-size: 13.5px;
+  font-size: 18px;
   font-weight: 500;
   color: var(--text-2);
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .sidebar-course-label {
-  font-size: 10.5px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -107,7 +107,7 @@ body {
 }
 
 .sidebar-course-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text);
   line-height: 1.4;
@@ -122,7 +122,7 @@ body {
   gap: 8px;
   padding: 6px 10px;
   margin: 0 6px 4px;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-2);
   text-decoration: none;
   border-radius: 6px;
@@ -151,7 +151,7 @@ body {
   cursor: pointer;
   text-align: left;
   font-family: var(--font);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text-2);
   border-radius: 6px;
@@ -169,11 +169,11 @@ body {
 }
 
 .nav-group-text {
-  flex: 1;
+  /*flex: 1;*/
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 12.5px;
+  font-size: 15px;
 }
 
 .nav-chevron {
@@ -212,7 +212,7 @@ body {
   gap: 8px;
   padding: 6px 10px;
   margin: 4px 6px 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text-2);
   text-decoration: none;
@@ -243,11 +243,11 @@ body {
 }
 
 .page-label {
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--text-3);
+  color: var(--text--3);
   margin-bottom: 10px;
   font-family: var(--mono);
 }
@@ -261,7 +261,7 @@ body {
 }
 
 .page-sub {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--text-3);
   font-style: italic;
 }
@@ -284,7 +284,7 @@ body {
 }
 
 .sec-num {
-  font-size: 12px;
+  font-size: 18px;
   font-family: var(--mono);
   color: var(--text-3);
   font-weight: 400;
@@ -292,14 +292,14 @@ body {
 }
 
 .sec-cn {
-  font-size: 14px;
-  color: var(--text-3);
+  font-size: 18px;
+  color: var(--text);
   font-weight: 400;
   font-style: italic;
 }
 
 h3.subsec {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -407,13 +407,14 @@ ul.nl strong { color: var(--text); font-weight: 500; }
 }
 
 .callout.teacher::before {
-  content: '老师说';
+  content: 'From the Transcripts:';
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: var(--accent);
+  font-style: italic;
   margin-bottom: 5px;
   font-family: var(--mono);
 }
@@ -431,10 +432,10 @@ ul.nl strong { color: var(--text); font-weight: 500; }
 .callout.case::before {
   content: 'Case Study';
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: var(--s2);
   margin-bottom: 5px;
   font-family: var(--mono);
@@ -491,13 +492,13 @@ ul.nl strong { color: var(--text); font-weight: 500; }
   grid-template-columns: 200px 1fr;
   gap: 12px;
   padding: 10px 14px;
-  font-size: 14.5px;
+  font-size: 15px;
   background: var(--surface);
   border: 1px solid var(--border-light);
   border-radius: 4px;
 }
 
-.gi-term { font-weight: 500; color: var(--text); font-family: var(--mono); font-size: 13px; align-self: start; padding-top: 1px; }
+.gi-term { font-weight: 500; color: var(--text); font-family: var(--mono); font-size: 15px; align-self: start; padding-top: 1px; }
 .gi-def { color: var(--text-2); line-height: 1.6; }
 
 /* ── MISC ── */

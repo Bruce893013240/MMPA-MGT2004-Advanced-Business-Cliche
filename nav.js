@@ -99,13 +99,13 @@ function buildSidebar(currentPage) {
   sidebar.id = 'sidebar';
 
   // sidebar header
-  const hdr = document.createElement('div');
-  hdr.className = 'sidebar-header';
-  hdr.innerHTML = `
-    <div class="sidebar-course-label">MGT2004</div>
-    <div class="sidebar-course-title">Advanced Business Cliches</div>
-  `;
-  sidebar.appendChild(hdr);
+  //const hdr = document.createElement('div');
+  //hdr.className = 'sidebar-header';
+ // hdr.innerHTML = `
+  //  <div class="sidebar-course-label">MGT2004</div>
+  //  <div class="sidebar-course-title">Advanced Business Cliches</div>
+  //`;
+  //sidebar.appendChild(hdr);
 
   const nav = document.createElement('nav');
   nav.className = 'sidebar-nav';
@@ -213,4 +213,32 @@ function buildSidebar(currentPage) {
 
     anchors.forEach(a => obs.observe(a));
   }
+}
+
+// 拖拽调整侧边栏宽度
+const resizer = document.createElement('div');
+resizer.style.cssText = `
+  position: fixed;
+  top: 0; bottom: 0;
+  left: var(--sidebar-w);
+  width: 4px;
+  cursor: col-resize;
+  z-index: 300;
+`;
+document.body.appendChild(resizer);
+
+resizer.addEventListener('mousedown', (e) => {
+  document.addEventListener('mousemove', resize);
+  document.addEventListener('mouseup', stopResize);
+});
+
+function resize(e) {
+  const newW = Math.min(Math.max(e.clientX, 180), 480);
+  document.documentElement.style.setProperty('--sidebar-w', newW + 'px');
+  resizer.style.left = newW + 'px';
+}
+
+function stopResize() {
+  document.removeEventListener('mousemove', resize);
+  document.removeEventListener('mouseup', stopResize);
 }
