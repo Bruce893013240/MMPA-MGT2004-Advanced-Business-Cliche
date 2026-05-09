@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MGT2004 高级战略管理概念 - 学习笔记</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700&display=swap');
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Noto Sans SC', 'Microsoft YaHei', 'SimSun', serif;
+        font-size: 11pt;
+        line-height: 1.6;
+        color: #333;
+        background: #fff;
+        padding: 40px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 22pt;
+        color: #1F3864;
+        border-bottom: 3px solid #1F3864;
+        padding-bottom: 15px;
+        margin: 40px 0 20px 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16pt;
+        color: #2E5496;
+        border-left: 4px solid #2E5496;
+        padding-left: 15px;
+        margin: 30px 0 15px 0;
+        background: #F5F8FF;
+        padding: 10px 10px 10px 15px;
+    }
+
+    h3 {
+        font-size: 13pt;
+        color: #2F5496;
+        margin: 20px 0 10px 0;
+        padding-left: 10px;
+        border-left: 3px solid #5B9BD5;
+    }
+
+    p {
+        margin: 8px 0;
+        text-align: justify;
+    }
+
+    .highlight-box {
+        background: #E8F0FE;
+        border-left: 4px solid #2F5496;
+        padding: 12px 15px;
+        margin: 15px 0;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .highlight-box strong {
+        color: #1F3864;
+        font-size: 12pt;
+    }
+
+    .key-point {
+        background: #FFF3CD;
+        border-left: 4px solid #C00000;
+        padding: 10px 15px;
+        margin: 15px 0;
+        font-weight: 500;
+    }
+
+    .key-point::before {
+        content: "★ ";
+        color: #C00000;
+    }
+
+    ul {
+        list-style: none;
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+
+    ul li {
+        position: relative;
+        padding: 4px 0;
+        padding-left: 20px;
+    }
+
+    ul li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #2F5496;
+        font-weight: bold;
+    }
+
+    ul ul {
+        margin-left: 15px;
+    }
+
+    .divider {
+        border-top: 2px dashed #CCCCCC;
+        margin: 30px 0;
+        height: 1px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 10pt;
+    }
+
+    th {
+        background: #2F5496;
+        color: white;
+        padding: 10px 12px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    td {
+        border: 1px solid #CCCCCC;
+        padding: 8px 12px;
+    }
+
+    tr:nth-child(even) {
+        background: #F5F5F5;
+    }
+
+    tr:hover {
+        background: #E8F0FE;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 2px solid #1F3864;
+        text-align: center;
+        color: #666;
+        font-size: 10pt;
+    }
+
+    .exam-box {
+        background: #F0FFF0;
+        border: 2px solid #28A745;
+        padding: 15px 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+    }
+
+    .exam-box h3 {
+        color: #28A745;
+        border-left-color: #28A745;
+        margin-top: 0;
+    }
+
+    @media print {
+        body {
+            padding: 20px;
+            font-size: 10pt;
+        }
+
+        h1 { font-size: 18pt; }
+        h2 { font-size: 14pt; }
+        h3 { font-size: 12pt; }
+
+        .page-break { page-break-before: always; }
+    }
+</style>
+</head>
+<body>
+
+<h1>MGT2004 高级战略管理概念<br/><span style="font-size:14pt;color:#666;">Advanced Concepts in Strategic Management — 学习笔记</span></h1>
+
+<p style="text-align:center;font-size:11pt;color:#555;">
+多伦多大学 MMPA 项目 | Professor Kevin Yousie<br/>
+本笔记涵盖4个核心Sessions，保留重要英文术语以帮助考试准备。
+</p>
+
+<!-- ==================== SESSION 1 ==================== -->
+<h1 class="page-break">Session 1: Governance and the Role of the Board<br/><span style="font-size:12pt;color:#666;font-weight:normal;">董事会角色与公司治理</span></h1>
+
+<h2>Board of Directors: Role and Composition<br/>董事会角色与构成</h2>
+
+<h3>核心概念 (Key Concepts)</h3>
+
+<div class="highlight-box">
+<strong>Governance vs Management</strong> — 治理与管理<br/>
+董事会的角色是治理(GOVERNANCE)而非管理(MANAGEMENT)。董事会负责监督，而不直接参与日常运营。
+</div>
+
+<h3>董事会的八项核心职责 (The Board's Role — Directing the Affairs of the Company)</h3>
+
+<ul>
+<li><strong>Selection of the CEO</strong> — 选择并监督CEO，确保其胜任且道德地运营公司</li>
+<li><strong>Ensure ethical operations</strong> — 确保管理层以有效且道德的方式运营，为股东创造价值（ethical behaviour, strategy, profitability, tone from the top）</li>
+<li><strong>Financial oversight</strong> — 监督财务报告的公正性，确保及时披露</li>
+<li><strong>Independent audit</strong> — 聘请独立会计师事务所审计财务报表</li>
+<li><strong>Shape governance</strong> — 塑造公司治理，推荐最佳董事候选人</li>
+<li><strong>Compensation policies</strong> — 制定薪酬政策，确定高管薪酬，建立绩效补偿目标</li>
+<li><strong>Shareholder concerns</strong> — 适当回应股东关切</li>
+<li><strong>Fair treatment</strong> — 确保公司与员工、客户、供应商等公平相处</li>
+</ul>
+
+<h2>Director's Legal Duties<br/>董事的三大法律义务</h2>
+
+<div class="highlight-box">
+<strong>Duty of Care (注意义务)</strong><br/>
+董事必须以合理谨慎的人的标准履行职责，包括：熟悉公司业务、参加董事会会议、审查财务报表、提出明智的问题。
+</div>
+
+<div class="highlight-box">
+<strong>Business Judgement Rule (商业判断规则)</strong><br/>
+只要董事出于善意、以合理信息为依据、且理性地认为决策符合公司最佳利益，即使决策最终失败，也免于承担责任。
+</div>
+
+<div class="highlight-box">
+<strong>Duty of Loyalty (忠诚义务)</strong><br/>
+董事必须将公司利益置于个人利益之上，避免利益冲突，不得利用职位谋取私利。
+</div>
+
+<h2>Shareholder Activism at Canadian Pacific<br/>案例：加拿大太平洋铁路股东维权</h2>
+
+<p><strong>背景：</strong>Pershing Square Capital Management持有约14%股份，试图获得公司控制权，要求更换CEO和多名董事。</p>
+
+<h3>从中吸取的教训 (Lessons Learned)</h3>
+
+<ul>
+<li>即使业绩良好，董事也必须保持警惕，确保为股东创造最优结果</li>
+<li>董事会必须有应对特殊情况的能力（时间、精力投入）</li>
+<li>董事会构成至关重要——需具备应对特殊情况的知识和经验，可借助外部专家</li>
+<li>股东维权活动日益普遍，不会消失</li>
+<li>董事必须履行注意义务和忠诚义务，否则可能面临诉讼</li>
+<li>机构投资者有能力影响投票结果（短期利益、代理投票）</li>
+<li>股东激进主义者倾向于短期视角，可能以牺牲长期投资为代价提升股价</li>
+<li>有效的领导力（CEO/管理层和董事会）可以推动卓越成果</li>
+<li>有效的沟通在特殊情况下非常重要</li>
+</ul>
+
+<div class="divider"></div>
+
+<!-- ==================== SESSION 2 ==================== -->
+<h1 class="page-break">Session 2: Sustainability and Charting Strategic Direction<br/><span style="font-size:12pt;color:#666;font-weight:normal;">可持续性与战略方向规划</span></h1>
+
+<h2>The Strategy-Making, Strategy-Executing Process<br/>战略制定与执行流程</h2>
+
+<div class="highlight-box">
+<strong>Five-Stage Process (五阶段流程)</strong><br/>
+战略制定和执行的完整过程，包含持续反馈和调整机制。
+</div>
+
+<h3>五阶段详解:</h3>
+
+<div class="key-point">Stage 1: Developing a Strategic Vision, Mission, and Core Values — 制定战略愿景、使命和核心价值观</div>
+<ul>
+<li>开发战略愿景(Strategic Vision) — 公司未来发展方向和长期目标</li>
+<li>使命陈述(Mission Statement) — 公司存在的目的和价值主张</li>
+<li>核心价值观(Core Values) — 公司行为的基本准则</li>
+</ul>
+
+<div class="key-point">Stage 2: Setting Objectives — 设定目标</div>
+<ul>
+<li>将愿景和使命转化为具体的绩效目标</li>
+<li>短期和长期目标相结合</li>
+<li>财务目标和战略目标平衡（balanced approach）</li>
+<li>Good strategic performance is the key to better financial performance</li>
+</ul>
+
+<div class="key-point">Stage 3: Crafting a Strategy — 制定战略</div>
+<ul>
+<li>制定实现目标和愿景的战略</li>
+<li>战略层次：公司战略、业务战略、职能战略（A company's strategy-making hierarchy）</li>
+<li>Strategy-making involves managers at all organizational levels</li>
+</ul>
+
+<div class="key-point">Stage 4: Executing the Strategy — 执行战略</div>
+<ul>
+<li><strong>Alignment is key</strong> — 一致性是关键</li>
+<li>管理者在各层面管理战略执行</li>
+<li>Managing the strategy execution process</li>
+</ul>
+
+<div class="key-point">Stage 5: Monitoring and Evaluating — 监控与评估</div>
+<ul>
+<li>根据实际绩效、变化条件、新机会进行调整</li>
+<li>Evaluating performance and initiating corrective adjustments</li>
+</ul>
+
+<h2>Wording a Vision Statement<br/>愿景陈述的撰写原则</h2>
+
+<h3>应该做的 (The Dos):</h3>
+<ul>
+<li><strong>Be graphic</strong> — 清晰描绘公司方向和市场定位</li>
+<li><strong>Be forward-looking</strong> — 面向未来，描述战略方向</li>
+<li><strong>Keep it focused</strong> — 聚焦于决策指导</li>
+<li><strong>Have wiggle room</strong> — 保持灵活性</li>
+<li><strong>Be sure the journey is feasible</strong> — 确保目标可实现</li>
+<li><strong>Indicate why</strong> — 说明方向符合利益相关者长期利益</li>
+<li><strong>Make it memorable</strong> — 易于沟通，可简化为口号</li>
+</ul>
+
+<h3>不应该做的 (The Don'ts):</h3>
+<ul>
+<li><strong>Don't be vague</strong> — 不要模糊或不完整</li>
+<li><strong>Don't dwell on present</strong> — 愿景是关于"我们将去向何方"</li>
+<li><strong>Don't use overly broad language</strong> — 不要使用包罗万象的语言</li>
+<li><strong>Don't be bland</strong> — 最好的愿景能激励员工</li>
+<li><strong>Don't be generic</strong> — 愿景应具体到能提供指导</li>
+<li><strong>Don't rely on superlatives</strong> — 避免空洞的"最佳""最成功"</li>
+</ul>
+
+<h2>案例：Maple Leaf Foods — 变革体系</h2>
+
+<p>Maple Leaf Foods (MLF) 将可持续性作为核心目标/使命。</p>
+
+<h3>核心转型:</h3>
+<ul>
+<li><strong>Purpose/Mission (使命):</strong> "To Raise the Good in Food" — 提升食品之美</li>
+<li><strong>Vision (愿景):</strong> "To be the most sustainable protein company on earth" — 成为地球上最可持续的蛋白质公司</li>
+</ul>
+
+<h3>思考问题:</h3>
+<ul>
+<li>MLF将可持续性作为核心目的是好主意吗？为什么？</li>
+<li>哪些利益相关者会受到影响？对他们的意义是什么？</li>
+<li>Michael McCain成功的原因是什么？</li>
+</ul>
+
+<h2>Definition of Sustainability<br/>可持续性定义</h2>
+
+<div class="highlight-box">
+<strong>Sustainability (可持续性)</strong><br/>
+满足我们自身需求的同时，不损害未来世代满足其需求的能力。<br/>
+<em>Source: McGill University</em>
+</div>
+
+<p>可持续性涉及三个维度:</p>
+<ul>
+<li>自然资源 (Natural Resources)</li>
+<li>社会资源 (Social Resources)</li>
+<li>经济资源 (Economic Resources)</li>
+</ul>
+
+<h2>Corporate Governance Failures at Volkswagen<br/>大众汽车公司治理失败</h2>
+
+<p>大众汽车排放丑闻是公司治理失败的典型案例，提醒我们:</p>
+<ul>
+<li>有效的公司治理对战略执行至关重要</li>
+<li>董事会需要有效监督管理层</li>
+<li>道德行为和文化的重要性</li>
+</ul>
+
+<div class="divider"></div>
+
+<!-- ==================== SESSION 3 ==================== -->
+<h1 class="page-break">Session 3: Strengthening a Company's Competitive Position<br/><span style="font-size:12pt;color:#666;font-weight:normal;">增强企业竞争地位</span></h1>
+
+<h2>Strategic Offensives and Defensives<br/>战略进攻与防守</h2>
+
+<h3>Strategic Offence Principles — 进攻战略原则</h3>
+
+<ul>
+<li>Always focus on building competitive advantage — 持续关注建立竞争优势</li>
+<li>Apply resources where rivals can least defend — 在竞争对手最薄弱处投入资源</li>
+<li>Element of surprise — 保持出其不意的元素</li>
+<li>Swift, decisive and overwhelming actions — 快速、果断、压倒性的行动</li>
+<li>Use firm's strongest asset to attack competitor's weakness — 用最强资产攻击竞争对手弱点</li>
+<li>May not get immediate results — 可能不会立即见效</li>
+<li>Consider game theory and competitive response — 考虑博弈论和竞争反应</li>
+</ul>
+
+<h3>Principal Offensive Strategy Options — 主要进攻战略选项</h3>
+
+<ul>
+<li>Offer equally good or better product at lower price — 以更低价格提供同等或更好的产品</li>
+<li>Leapfrog with next generation product — 用下一代产品超越竞争对手</li>
+<li>Continual innovation — 持续创新</li>
+<li>Disruptive innovation — 颠覆性创新</li>
+<li>Hit and run guerrilla marketing — 游击营销</li>
+<li>Preemptive strike — 先发制人（在有限资源或机会出现时）</li>
+</ul>
+
+<h3>Best Rivals to Attack — 最佳攻击目标</h3>
+
+<ul>
+<li>Market leaders in areas where they are vulnerable — 在领导者薄弱领域攻击</li>
+<li>Runner-up firms with weaknesses — 第二第三位企业的弱点</li>
+<li>Struggling enterprises — 挣扎中的企业</li>
+<li>Small local/regional firms — 小型本地/区域企业</li>
+</ul>
+
+<div class="highlight-box">
+<strong>Blue Ocean Strategy (蓝海战略)</strong><br/>
+创造一个全新的、无竞争的市场空间，而不是在红海（现有市场）中与竞争对手血拼。核心是价值创新——同时追求差异化和低成本。
+</div>
+
+<h2>Defensive Strategies — 防御策略</h2>
+
+<h3>两种防御方式:</h3>
+
+<div class="key-point">Blocking avenues — 阻断挑战者进入的途径</div>
+<ul>
+<li>Address gaps and niches — 填补空白和细分市场</li>
+<li>Maintain reasonable pricing — 保持合理定价</li>
+<li>Discourage switching — 阻止客户转换品牌（长期合同等）</li>
+<li>Announce new products — 发布新产品公告（创造市场期待）</li>
+<li>Reduce switching costs — 降低客户转换成本</li>
+<li>Maintain quality and safety — 保持质量和安全标准</li>
+<li>Attack competitor quality/safety reputation — 攻击竞争对手质量/安全声誉</li>
+<li>Offer better terms and discounts — 提供更好的条款和折扣</li>
+</ul>
+
+<div class="key-point">Signaling likelihood of retaliation — 信号报复的可能性</div>
+<ul>
+<li>Public announcements about matching prices — 公开承诺匹配价格</li>
+<li>Maintain cash reserves for retaliation — 保持现金储备以备反击</li>
+</ul>
+
+<h2>Timing Strategic Moves — 时机战略</h2>
+
+<h3>First-Mover Advantages (先发优势) — 条件:</h3>
+
+<ul>
+<li>Pioneering helps build reputation and brand loyalty — 先锋有助于建立声誉和品牌忠诚度</li>
+<li>Switching costs — 客户转换成本高</li>
+<li>Property protection (patents) — 知识产权保护</li>
+<li>Learning curve effects — 学习曲线效应</li>
+<li>Setting technical standards — 设定技术标准（成为行业标准）</li>
+<li>Network effects — 网络效应</li>
+</ul>
+
+<h3>Late-Mover Advantages / First-Mover Disadvantages (后发优势):</h3>
+
+<ul>
+<li>High pioneering costs, low learning curve benefits — 高昂的先发成本，低学习收益</li>
+<li>Innovator's products are primitive — 先驱者产品较原始</li>
+<li>Rapid market evolution — 市场快速演变</li>
+<li>Market uncertainty — 市场不确定</li>
+<li>Low customer loyalty — 客户忠诚度低</li>
+<li>Need for upfront risky investment — 需要前期风险投资</li>
+<li>Infrastructure dependency — 依赖基础设施（可能被共享）</li>
+<li>Complementary products not available — 互补产品尚不可用</li>
+</ul>
+
+<h2>Horizontal Mergers and Acquisitions — 横向并购</h2>
+
+<h3>战略目标:</h3>
+<ul>
+<li>More cost-effective operation — 更具成本效益的运营</li>
+<li>Expand geographic coverage — 扩展地理覆盖</li>
+<li>Create new product opportunities — 创造新产品机会</li>
+<li>Quick access to technologies — 快速获取技术</li>
+<li>Industry convergence — 产业融合</li>
+</ul>
+
+<h3>失败原因:</h3>
+<ul>
+<li>Cost savings not achieved — 成本节约未能实现</li>
+<li>Synergies never materialize — 协同效应未能实现</li>
+<li>Organizational culture conflicts — 组织文化冲突</li>
+<li>Key employees leave — 关键员工流失</li>
+<li>Integration mistakes — 整合失误（过度微观管理）</li>
+</ul>
+
+<h2>Vertical Integration Strategies — 垂直整合策略</h2>
+
+<div class="highlight-box">
+<strong>Backward Integration (向后整合)</strong><br/>
+整合到原材料供应阶段。例如：汽车制造商建立自己的钢铁厂。
+</div>
+
+<div class="highlight-box">
+<strong>Forward Integration (向前整合)</strong><br/>
+整合到分销/零售阶段。例如：Burberry收回日本特许经营权控制权，以维护品牌形象。
+</div>
+
+<h3>优势 (Advantages):</h3>
+<ul>
+<li>Technological capabilities — 技术能力提升</li>
+<li>Strengthen competitive position — 增强竞争地位</li>
+<li>Boost profitability — 提高盈利能力</li>
+<li>More power — 增强议价能力</li>
+<li>Assured supply of critical inputs — 确保关键投入供应</li>
+<li>Protect proprietary know-how — 保护专有技术</li>
+<li>Matching or beating supplier production efficiency — 匹配或超越供应商生产效率</li>
+</ul>
+
+<h3>劣势 (Disadvantages):</h3>
+<ul>
+<li>Increased business risk — 业务风险增加</li>
+<li>Slows acceptance of new technology — 减慢新技术采纳速度（资本投资锁定）</li>
+<li>Less flexibility — 灵活性降低</li>
+<li>Capacity matching problems — 产能匹配问题</li>
+<li>Need for new capabilities — 需要新技能</li>
+<li>May not reach volume targets for economies of scale — 可能无法达到规模经济所需的产量</li>
+</ul>
+
+<h2>Outsourcing Strategies — 外包策略</h2>
+
+<div class="highlight-box">
+<strong>Outsourcing (外包)</strong><br/>
+缩小运营范围，将某些活动外包给第三方供应商。核心是聚焦核心竞争力。
+</div>
+
+<h3>优点:</h3>
+<ul>
+<li>More flexible — 更灵活</li>
+<li>Speed time to market — 加快上市时间</li>
+<li>Reduce capital expenditure — 减少资本支出</li>
+<li>Reduce risk exposure — 降低风险敞口</li>
+<li>Focus on core competencies — 专注核心竞争力</li>
+</ul>
+
+<h3>风险:</h3>
+<ul>
+<li>Loss of key resources and capabilities — 丧失关键资源和能力</li>
+<li>Too dependent on outsourcing firm — 过度依赖外包商</li>
+<li>Lack of incentive — 缺乏激励（外包商服务多家公司）</li>
+<li>Intellectual property risks — 知识产权风险</li>
+</ul>
+
+<h2>Strategic Alliances and Partnerships — 战略联盟与伙伴关系</h2>
+
+<div class="highlight-box">
+<strong>Strategic Alliance (战略联盟)</strong><br/>
+两个或多个公司之间的合作协议，共享资源、能力或市场，以实现共同目标。
+</div>
+
+<h3>使联盟具有战略性的因素:</h3>
+<ul>
+<li>Enable achievement of important business objective — 实现重要业务目标</li>
+<li>Build, sustain or enhance core competency — 建立、维持或增强核心竞争力</li>
+<li>Offset resource/competency deficits — 弥补资源/能力不足</li>
+<li>Defend against competitive threats — 防御竞争威胁</li>
+<li>Increased bargaining power — 增加议价能力</li>
+<li>New market opportunities — 新市场机会</li>
+<li>Speed development of technologies — 加速技术开发</li>
+</ul>
+
+<h3>优势 (Advantages over M&A or Vertical Integration):</h3>
+<ul>
+<li>Lower investment costs and risk — 降低投资成本和风险</li>
+<li>More flexibility — 更灵活（可改变合作伙伴）</li>
+<li>Can be deployed quickly — 可快速部署</li>
+<li>Share resources, activities, market space — 共享资源、活动、市场</li>
+</ul>
+
+<h3>成功要素:</h3>
+<ul>
+<li>Cultural sensitivity — 文化敏感性（组织文化和民族差异）</li>
+<li>Benefit both sides — 双方受益（否则难以持久）</li>
+<li>Keep commitments — 信守承诺</li>
+<li>Decision-making approach — 决策方法（避免官僚主义）</li>
+<li>Permanent trusting relationships — 永久信任关系（基于关系而非合同）</li>
+<li>Learning should be part of an alliance — 持续学习</li>
+</ul>
+
+<h2>案例：Intel Corporation — 外包困境</h2>
+
+<p>Pat Gelsinger面临是否外包芯片制造的决策。</p>
+
+<h3>外包给TSMC等代工厂的优点 (Pros):</h3>
+<ul>
+<li>Access to advanced technology (5nm, 3nm) — 获取先进技术</li>
+<li>Cost reduction — 降低成本</li>
+<li>Focus on chip design — 专注芯片设计</li>
+<li>Faster time to market — 更快的上市时间</li>
+<li>Scalability — 可扩展性</li>
+<li>Risk mitigation — 风险分散</li>
+<li>Improved yield rates — 提高良品率</li>
+</ul>
+
+<h3>外包的缺点 (Cons):</h3>
+<ul>
+<li>Loss of control — 失去控制</li>
+<li>IP risks — 知识产权风险</li>
+<li>Dependency on external suppliers — 依赖外部供应商</li>
+<li>Geopolitical risks (Taiwan) — 地缘政治风险</li>
+<li>Quality assurance challenges — 质量保证挑战</li>
+<li>Loss of manufacturing expertise — 失去制造专业知识</li>
+</ul>
+
+<div class="divider"></div>
+
+<!-- ==================== SESSION 4 ==================== -->
+<h1 class="page-break">Session 4: Strategies for Competing in International Markets<br/><span style="font-size:12pt;color:#666;font-weight:normal;">国际市场竞争策略</span></h1>
+
+<h2>Why Companies Enter Foreign Markets<br/>进入国际市场的动因</h2>
+
+<ul>
+<li>Gain new customers — 获取新客户（国内成熟时必须国际化）</li>
+<li>Achieve lower costs through economies of scale — 通过规模经济降低成本</li>
+<li>Find cheaper inputs — 寻找更便宜的投入要素（劳动力等）</li>
+<li>Leverage core competencies internationally — 在国际上利用核心竞争力</li>
+<li>Access resources and capabilities — 获取资源和能力</li>
+</ul>
+
+<h2>The Diamond of National Advantage — Michael Porter<br/>国家优势钻石模型</h2>
+
+<div class="highlight-box">
+<strong>Diamond Framework (钻石模型)</strong><br/>
+解释为什么某些国家在特定产业具有竞争优势的框架。
+</div>
+
+<h3>四个要素:</h3>
+
+<div class="key-point">Factor Conditions (要素条件)</div>
+<ul>
+<li>Ecuador's tulip industry — 厄瓜多尔利用高海拔、充足阳光、低劳动力成本种植郁金香</li>
+<li>Worker productivity — 工人生产力</li>
+<li>Energy costs — 能源成本</li>
+<li>Environmental regulations — 环境法规</li>
+<li>Natural resources — 自然资源</li>
+</ul>
+
+<div class="key-point">Demand Conditions (需求条件)</div>
+<ul>
+<li>Large domestic demand allows building scale — 国内大需求允许建立规模</li>
+</ul>
+
+<div class="key-point">Related and Supporting Industries (相关和支持产业)</div>
+<ul>
+<li>Tool, die and mold makers in GTA — GTA的工具和模具制造商支持汽车产业</li>
+<li>Pharmaceutical companies in Mississauga — 密西沙加的制药产业</li>
+<li>产业集群的协同效应</li>
+</ul>
+
+<div class="key-point">Firm Strategy, Structure and Rivalry (企业战略、结构和竞争)</div>
+<ul>
+<li>Strategy pursued — 追求的战略</li>
+<li>Degree of rivalry in market — 市场竞争程度</li>
+</ul>
+
+<h2>Impact of Government Policies<br/>政府政策的影响</h2>
+
+<ul>
+<li>Tax incentives (Ireland's low tax rate) — 税收优惠</li>
+<li>Low cost loans — 低息贷款</li>
+<li>Worker training — 员工培训</li>
+<li>Environmental regulations — 环境法规</li>
+<li>Subsidies to local competitors — 补贴本地竞争者</li>
+<li>Import restrictions, tariffs and quotas — 进口限制、关税和配额</li>
+<li>Local content requirements — 本地化要求（加拿大汽车产业的例子）</li>
+<li>Regulatory approvals — 监管审批</li>
+<li>Repatriation of profits — 利润汇回限制</li>
+<li>Local partner ownership requirements — 本地合作伙伴所有权要求</li>
+</ul>
+
+<h2>Foreign Exchange Risks — 汇率风险</h2>
+
+<div class="highlight-box">
+<strong>Transaction Risk (交易风险)</strong><br/>
+在支付期内汇率变动导致的损失风险。
+</div>
+
+<div class="highlight-box">
+<strong>Translation Risk (折算风险)</strong><br/>
+合并财务报表时将外币折算为本币导致的损益。
+</div>
+
+<div class="highlight-box">
+<strong>Economic/Operating Risk (经济/运营风险)</strong><br/>
+汇率的长期结构性变化影响公司的市场地位和竞争力。
+</div>
+
+<p><strong>Hedging strategies (对冲策略):</strong> forward contracts, swaps, options</p>
+
+<h2>Five Primary Modes of Entry — 五种主要进入模式</h2>
+
+<h3>1. Exporting (出口)</h3>
+<ul>
+<li>Low capital requirement — 低资本要求</li>
+<li>No direct investment risk — 无直接投资风险</li>
+<li>Builds economies of scale using existing capacity — 利用现有产能建立规模经济</li>
+</ul>
+<p><em>缺点:</em> Transportation costs, tariffs, exchange rate risk, less control</p>
+
+<h3>2. Licensing (许可)</h3>
+<ul>
+<li>Fast and low resource requirement — 快速且低资源要求</li>
+<li>Get royalty checks — 收取特许权使用费</li>
+</ul>
+<p><em>缺点:</em> Loss of control over technology, operational quality issues</p>
+
+<h3>3. Franchising (特许经营)</h3>
+<ul>
+<li>More control than licensing — 比许可更多控制</li>
+<li>Can cancel franchise agreement — 可取消特许协议</li>
+</ul>
+<p><em>例如:</em> McDonald's — 前期费用超过100万美元</p>
+
+<h3>4. Acquisition of Foreign Subsidiary (收购外国子公司)</h3>
+<ul>
+<li>High level of control — 高控制水平</li>
+<li>Fast entry — 快速进入</li>
+<li>Known cost structure — 已知的成本结构</li>
+<li>Access to skills, distribution, relationships — 获取技能、分销、关系</li>
+</ul>
+<p><em>缺点:</em> Risk of overpaying, integration issues</p>
+
+<h3>5. Greenfield Strategy (绿地投资)</h3>
+<ul>
+<li>Build from scratch — 从零开始建设</li>
+<li>Cheaper than acquisition if sellers want too much — 如果卖方要价太高，可能更便宜</li>
+<li>Learn about market — 学习市场</li>
+</ul>
+<p><em>缺点:</em> Capital intensive, political risk, slow</p>
+
+<h3>6. Joint Ventures / Strategic Alliances (合资/战略联盟)</h3>
+<ul>
+<li>Get local partner's strengths — 获取本地合作伙伴的优势</li>
+<li>Economies of scale — 规模经济</li>
+<li>Technical expertise — 技术专业知识</li>
+<li>Local market knowledge — 本地市场知识</li>
+</ul>
+
+<h2>Three Main Approaches for Competing Internationally<br/>三种主要国际竞争战略</h2>
+
+<h3>1. Global Strategy (全球战略)</h3>
+<p><strong>Think globally, act globally</strong> — 全球化思考和行动</p>
+<p>High need for global integration and standardization; Low need for local responsiveness</p>
+<p><strong>优点:</strong> Lower cost due to scale, greater efficiencies, innovation from knowledge sharing</p>
+<p><strong>缺点:</strong> Difficult to address local needs, higher coordination costs</p>
+
+<h3>2. Multidomestic Strategy (多国本土化战略)</h3>
+<p><strong>Think locally, act locally</strong> — 本地化思考和行动</p>
+<p>High need for local responsiveness; Low benefits from global integration</p>
+<p><strong>优点:</strong> Meet specific needs precisely, respond swiftly to local opportunities</p>
+<p><strong>缺点:</strong> Difficult to transfer capabilities, higher production costs</p>
+
+<h3>3. Transnational Strategy (跨国战略)</h3>
+<p><strong>Balance of both</strong> — 两者平衡</p>
+<p>Some local responsiveness + some global integration</p>
+<p><strong>优点:</strong> Benefits of both, sharing of resources and capabilities, flexible coordination</p>
+
+<h2>Using Location to Build Competitive Advantage<br/>利用区位建立竞争优势</h2>
+
+<h3>集中活动的条件 (When to Concentrate Activities):</h3>
+<ul>
+<li>Manufacturing costs significantly lower — 制造成本显著更低</li>
+<li>Significant economies of scale — 显著规模经济</li>
+<li>Superior resources for coordination — 优越的资源用于协调</li>
+</ul>
+
+<h3>分散活动的条件 (When to Disperse Activities):</h3>
+<ul>
+<li>Buyer-related activities can be conducted at a distance — 客户相关活动可远程进行</li>
+<li>Transportation costs high — 运输成本高</li>
+<li>Diseconomies of larger size — 大规模不经济</li>
+<li>Trade barriers make central location too expensive — 贸易壁垒使中心位置成本过高</li>
+<li>Exchange risk, supply interruptions, political instability — 汇率风险、供应中断、政治不稳定</li>
+</ul>
+
+<h2>Dumping and Trade Protection — 倾销与贸易保护</h2>
+
+<div class="highlight-box">
+<strong>Dumping (倾销)</strong><br/>
+在外国市场以低于正常国内价格或低于全部成本的价格销售商品。这是WTO规则禁止的行为。
+</div>
+
+<p>Dumping的后果: 当地竞争者被排挤，之后价格可能被抬高。国家因此制定了反倾销法律。</p>
+
+<h2>Competing in Developing Countries — 在发展中国家竞争</h2>
+
+<ul>
+<li>Be prepared to compete on low price — 准备以低价竞争</li>
+<li>Modify business model for local circumstances — 根据当地情况修改业务模式（基础设施差异）</li>
+<li>Try to change local market to match capabilities — 尝试改变本地市场以匹配能力</li>
+<li>Stay away if impractical or uneconomical — 如果不可行或不经济则远离（注意商业道德和反腐）</li>
+</ul>
+
+<h3>本地公司的防御策略:</h3>
+<ul>
+<li>Exploit shortcomings in local distribution/infrastructure — 利用本地分销/基础设施的不足</li>
+<li>Leverage local market knowledge and relationships — 利用本地市场知识和关系</li>
+<li>Use workforce aspects multinationals are unfamiliar with — 利用跨国公司不熟悉的劳动力特点</li>
+<li>Use acquisition and rapid growth to defend — 使用收购和快速增长进行防御</li>
+</ul>
+
+<h2>案例：Harley-Davidson in India (B)</h2>
+
+<p>Harley-Davidson在印度推出了Street 500和Street 750车型。</p>
+
+<h3>思考问题:</h3>
+<ul>
+<li>为什么Harley-Davidson决定在印度推出这两款新车型？</li>
+<li>引入这两款车型需要考虑哪些潜在风险？</li>
+<li>Harley-Davidson在推出Street 500和750系列方面做得如何？为什么？</li>
+</ul>
+
+<div class="divider"></div>
+
+<!-- ==================== EXAM PREPARATION ==================== -->
+<h1 class="page-break">考试准备要点<br/><span style="font-size:12pt;color:#666;font-weight:normal;">Exam Preparation Key Points</span></h1>
+
+<div class="exam-box">
+<h3>期中考信息 (Exam Information)</h3>
+<p><strong>考试时间:</strong> Monday, May 11th, 10:00 am - 1:00 pm (3小时)</p>
+<p><strong>地点:</strong> KN L1220</p>
+<p><strong>形式:</strong> Closed Book — 无辅助材料</p>
+<p><strong>题型:</strong> 简答题/短论文题 (Short answer / short essay questions)</p>
+</div>
+
+<h2>重点复习题目 (Key Review Topics)</h2>
+
+<h3>Session 1 — Governance and Board Role:</h3>
+<ul>
+<li>董事会与管理层角色的区别 (Governance vs Management)</li>
+<li>董事的三大法律义务 (Duty of Care, Business Judgement Rule, Duty of Loyalty)</li>
+<li>董事会八大核心职责 (The Board's Role — 8 responsibilities)</li>
+<li>Canadian Pacific股东维权案例分析</li>
+</ul>
+
+<h3>Session 2 — Charting Strategic Direction:</h3>
+<ul>
+<li>战略制定与执行五阶段流程 (Five-Stage Process)</li>
+<li>愿景陈述的撰写原则（Do's and Don'ts）</li>
+<li>设定目标的原则 (Setting Objectives)</li>
+<li>可持续性定义 (Definition of Sustainability)</li>
+<li>Maple Leaf Foods案例分析</li>
+<li>大众汽车公司治理失败案例</li>
+</ul>
+
+<h3>Session 3 — Competitive Position:</h3>
+<ul>
+<li>进攻战略和防御战略 (Offensive and Defensive Strategies)</li>
+<li>蓝海战略 (Blue Ocean Strategy)</li>
+<li>先发优势与后发优势的条件 (First-mover vs Late-mover advantages)</li>
+<li>垂直整合的优缺点 (Vertical Integration pros and cons)</li>
+<li>外包的优缺点 (Outsourcing pros and cons)</li>
+<li>战略联盟的优势和成功要素 (Strategic Alliances)</li>
+<li>Intel案例分析</li>
+</ul>
+
+<h3>Session 4 — International Strategy:</h3>
+<ul>
+<li>进入国际市场的动因 (Why companies enter foreign markets)</li>
+<li>钻石模型四要素 (Diamond of National Advantage)</li>
+<li>汇率风险类型 (Exchange Rate Risks: Transaction, Translation, Economic)</li>
+<li>五种进入模式及其优缺点 (Five Modes of Entry)</li>
+<li>三种国际战略及其适用条件 (Global, Multidomestic, Transnational strategies)</li>
+<li>在发展中国家竞争的策略</li>
+<li>Harley-Davidson案例分析</li>
+</ul>
+
+<div class="divider"></div>
+
+<!-- ==================== GLOSSARY ==================== -->
+<h1>重要术语表 (Glossary of Key Terms)</h1>
+
+<table>
+<tr><th style="width:35%">English Term</th><th>中文解释</th></tr>
+<tr><td><strong>Governance</strong></td><td>治理 — 董事会监督公司运营而非直接管理</td></tr>
+<tr><td><strong>Duty of Care</strong></td><td>注意义务 — 董事必须以合理谨慎的人的标准行事</td></tr>
+<tr><td><strong>Business Judgement Rule</strong></td><td>商业判断规则 — 保护善意决策的董事免于责任</td></tr>
+<tr><td><strong>Duty of Loyalty</strong></td><td>忠诚义务 — 董事必须将公司利益置于个人利益之上</td></tr>
+<tr><td><strong>Strategic Vision</strong></td><td>战略愿景 — 公司未来的发展方向和目标</td></tr>
+<tr><td><strong>Mission Statement</strong></td><td>使命陈述 — 公司存在的目的和价值</td></tr>
+<tr><td><strong>Core Values</strong></td><td>核心价值观 — 指导公司行为的基本原则</td></tr>
+<tr><td><strong>Sustainability</strong></td><td>可持续性 — 满足当前需求而不损害未来世代</td></tr>
+<tr><td><strong>Blue Ocean Strategy</strong></td><td>蓝海战略 — 创造新市场空间的差异化战略</td></tr>
+<tr><td><strong>First-Mover Advantage</strong></td><td>先发优势 — 先行进入市场获得的竞争优势</td></tr>
+<tr><td><strong>Vertical Integration</strong></td><td>垂直整合 — 控制更多价值链环节</td></tr>
+<tr><td><strong>Outsourcing</strong></td><td>外包 — 将活动转移给外部供应商</td></tr>
+<tr><td><strong>Strategic Alliance</strong></td><td>战略联盟 — 合作实现共同目标的协议</td></tr>
+<tr><td><strong>Diamond of National Advantage</strong></td><td>国家优势钻石模型 — 解释国家产业竞争力的框架</td></tr>
+<tr><td><strong>Foreign Direct Investment</strong></td><td>外国直接投资 — 在外国市场建立运营</td></tr>
+<tr><td><strong>Greenfield Strategy</strong></td><td>绿地投资 — 从零开始在外国建设设施</td></tr>
+<tr><td><strong>Global Strategy</strong></td><td>全球战略 — 标准化全球运营</td></tr>
+<tr><td><strong>Multidomestic Strategy</strong></td><td>多国本土化战略 — 本地化调整以适应各地市场</td></tr>
+<tr><td><strong>Transnational Strategy</strong></td><td>跨国战略 — 结合全球化和本地化的混合战略</td></tr>
+<tr><td><strong>Dumping</strong></td><td>倾销 — 以低于成本的价格在外国市场销售</td></tr>
+</table>
+
+<div class="footer">
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<p><strong>祝考试顺利！Good luck on your exams!</strong></p>
+<p><br/>本笔记由MiniMax Agent整理</p>
+<p>MGT2004 - Advanced Concepts in Strategic Management</p>
+<p>University of Toronto, MMPA Program</p>
+</div>
+
+</body>
+</html>
